@@ -1,0 +1,9 @@
+module F_25MHz (input clk, output CLK);
+	
+	assign CLK=DOWNCOUNTER;
+	
+	reg DOWNCOUNTER;
+	always @(posedge clk) 
+		DOWNCOUNTER<=~DOWNCOUNTER;
+	
+endmodule

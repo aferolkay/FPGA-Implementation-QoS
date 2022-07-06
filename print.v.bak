@@ -1,0 +1,37 @@
+module(
+	input clk,RST
+	output[7:0] R_out,B_out,G_out ,
+	output HS,VS;
+	);
+	
+//	module vga_sync
+//	(
+//		input clk, reset,
+//		output hsync, vsync, video_on , p_tick,
+//		output wire [9:0] x, y
+//	);
+	
+	wire ON,F24MHZ;
+	wire [9:0] x_loc,y_loc;
+	
+	vga_sync sinyaller(clk, RST, HS, VS, ON, F24MHZ, x_loc, y_loc);
+	
+	
+	
+	
+	
+	parameter 	Frame = 307200, //total number of pixels 
+					Frame_X = 640,
+					Frame_Y = 480;
+					
+	
+	
+	reg [7:0] 	R[640][480],
+					G[640][480],
+					B[640][480];
+	
+	assign CURSOR =  
+	
+	
+	$readmemh("R.txt",COLOUR_DATA_R)
+		
