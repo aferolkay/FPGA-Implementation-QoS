@@ -1,0 +1,215 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\AferOlkay\Desktop\EE314-Project\simulation\qsim
+vdeneme
+IF^F3zSOG[^1iR;z^YCL4a0
+VAlL>PM3NTm@Q:aR0Dk[TI0
+Z1 dC:\Users\AferOlkay\Desktop\EE314-Project\simulation\qsim
+Z2 w1656878640
+Z3 8C:/Users/AferOlkay/Desktop/EE314-Project/deneme.v
+Z4 FC:/Users/AferOlkay/Desktop/EE314-Project/deneme.v
+L0 1
+Z5 OV;L;10.1d;51
+r1
+31
+Z6 !s108 1656879166.412000
+Z7 !s107 C:/Users/AferOlkay/Desktop/EE314-Project/deneme.v|
+Z8 !s90 -reportprogress|300|-work|work|C:/Users/AferOlkay/Desktop/EE314-Project/deneme.v|
+Z9 o-work work -O0
+!i10b 1
+!s100 4:jC]BPS1gl^C56EAU2>j3
+!s85 0
+!s101 -O0
+vdeneme2
+ILB9]=3MC9laAMYdZa2ERl3
+VUm<Il]Wg8N^1Z[f`79ZEH1
+R1
+R2
+Z10 8C:/Users/AferOlkay/Desktop/EE314-Project/deneme2.v
+Z11 FC:/Users/AferOlkay/Desktop/EE314-Project/deneme2.v
+L0 1
+R5
+r1
+31
+Z12 !s90 -reportprogress|300|-work|work|C:/Users/AferOlkay/Desktop/EE314-Project/deneme2.v|
+R9
+Z13 !s107 C:/Users/AferOlkay/Desktop/EE314-Project/deneme2.v|
+!i10b 1
+!s100 <Tmzk>oDV67cVRz]c9@FC2
+!s85 0
+!s108 1656879166.459000
+!s101 -O0
+vdeneme2_tb
+I^GA=6]eUJ4HVb[oE1Gao:3
+VRD_YMi6JSN`EU@TGk0dfH1
+R1
+w1656868468
+R10
+R11
+L0 42
+R5
+r1
+31
+R12
+R9
+R13
+!s108 1656869234.047000
+!i10b 1
+!s100 [X3`ic97kS@bJdWF`>UPU2
+!s85 0
+!s101 -O0
+vdeneme3
+Il`7i9<liH7Gj?AR?a4@<n3
+VzeQ^4z?:a=f1b;>]O4]1]3
+R1
+Z14 w1656878641
+Z15 8C:/Users/AferOlkay/Desktop/EE314-Project/deneme3.v
+Z16 FC:/Users/AferOlkay/Desktop/EE314-Project/deneme3.v
+L0 1
+R5
+r1
+31
+Z17 !s90 -reportprogress|300|-work|work|C:/Users/AferOlkay/Desktop/EE314-Project/deneme3.v|
+R9
+Z18 !s107 C:/Users/AferOlkay/Desktop/EE314-Project/deneme3.v|
+!i10b 1
+!s100 MgA0I;7UNCo6nLCSgZD943
+!s85 0
+!s108 1656879166.506000
+!s101 -O0
+vdeneme3_tb
+IkIUlHCJY2Mn@K;fKf^fZI1
+V6I1PA`Sh`1m^_^G;oL]Rg1
+R1
+w1656868469
+R15
+R16
+L0 42
+R5
+r1
+31
+R17
+R9
+R18
+!s108 1656869234.109000
+!i10b 1
+!s100 9]F0DC`6a?=E__gL`7^8V1
+!s85 0
+!s101 -O0
+vdeneme4
+IHEC2[FK=]A2mGGFE@g@ek3
+V0;h:GWERJ?:n4[VZ<VfKF3
+R1
+R14
+Z19 8C:/Users/AferOlkay/Desktop/EE314-Project/deneme4.v
+Z20 FC:/Users/AferOlkay/Desktop/EE314-Project/deneme4.v
+L0 1
+R5
+r1
+31
+Z21 !s90 -reportprogress|300|-work|work|C:/Users/AferOlkay/Desktop/EE314-Project/deneme4.v|
+R9
+Z22 !s107 C:/Users/AferOlkay/Desktop/EE314-Project/deneme4.v|
+!i10b 1
+!s100 [I;C:=X3VSm65BeEnzn5<1
+!s85 0
+!s108 1656879166.553000
+!s101 -O0
+vdeneme4_tb
+I<bDKfJ4@WWI[D?cYY5]6K2
+V>1gTZP8ET_Y_KL<mldFc22
+R1
+w1656868470
+R19
+R20
+L0 42
+R5
+r1
+31
+R21
+R9
+R22
+!s108 1656869234.170000
+!i10b 1
+!s100 _SDaTJbY:B54V7<nQ=D8>3
+!s85 0
+!s101 -O0
+vdeneme_tb
+IB`I]3e2TCE_44kdH[gMP_2
+V2gm6FP0P_XU?=33jl:35X3
+R1
+R2
+R3
+R4
+L0 42
+R5
+r1
+31
+R6
+R7
+R8
+R9
+!i10b 1
+!s100 fiR68kM[;Vi?^:]MWFPn11
+!s85 0
+!s101 -O0
+vF_25MHz
+IE6o8dk_ff=e^TcG:QNEm`1
+VDkAbP^0n>O=VlI_oK1L_Y2
+R1
+w1656752304
+8C:/Users/AferOlkay/Desktop/EE314-Project/F_25MHz.v
+FC:/Users/AferOlkay/Desktop/EE314-Project/F_25MHz.v
+L0 1
+R5
+r1
+31
+R9
+n@f_25@m@hz
+!i10b 1
+!s100 TUg<5fTWVZjfP<5G0cDnN1
+!s85 0
+!s108 1656879166.616000
+!s107 C:/Users/AferOlkay/Desktop/EE314-Project/F_25MHz.v|
+!s90 -reportprogress|300|-work|work|C:/Users/AferOlkay/Desktop/EE314-Project/F_25MHz.v|
+!s101 -O0
+vprint
+!i10b 1
+!s100 LSoMEkmW0klV5Rj`g@>Fj1
+IUJD`^gm]Kl:YIbcmo>4:^3
+V_Pl=GYI=Da62z:CBT3XE?1
+R1
+w1656879457
+8C:/Users/AferOlkay/Desktop/EE314-Project/print.v
+FC:/Users/AferOlkay/Desktop/EE314-Project/print.v
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1656879475.543000
+!s107 C:/Users/AferOlkay/Desktop/EE314-Project/print.v|
+!s90 -reportprogress|300|-work|work|C:/Users/AferOlkay/Desktop/EE314-Project/print.v|
+!s101 -O0
+R9
+vvga_sync
+Ii4GO0XkeaX`IgFMAUU2N_3
+Z23 V:GL[X_h<@<0i[GAAf2IOV2
+R1
+w1656869196
+8C:/Users/AferOlkay/Desktop/EE314-Project/vga_sync.v
+FC:/Users/AferOlkay/Desktop/EE314-Project/vga_sync.v
+L0 1
+R5
+r1
+31
+R9
+!i10b 1
+!s100 RzVGWE[ZK=knaFiW:Sgk82
+!s85 0
+!s108 1656879166.710000
+!s107 C:/Users/AferOlkay/Desktop/EE314-Project/vga_sync.v|
+!s90 -reportprogress|300|-work|work|C:/Users/AferOlkay/Desktop/EE314-Project/vga_sync.v|
+!s101 -O0

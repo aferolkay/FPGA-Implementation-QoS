@@ -1,0 +1,349 @@
+# Reading C:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do TermProject_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/AferOlkay/Desktop/EE314-Project {C:/Users/AferOlkay/Desktop/EE314-Project/print.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module print
+# 
+# Top level modules:
+# 	print
+# vlog -vlog01compat -work work +incdir+C:/Users/AferOlkay/Desktop/EE314-Project {C:/Users/AferOlkay/Desktop/EE314-Project/vga_sync.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module vga_sync
+# 
+# Top level modules:
+# 	vga_sync
+# vlog -vlog01compat -work work +incdir+C:/Users/AferOlkay/Desktop/EE314-Project {C:/Users/AferOlkay/Desktop/EE314-Project/F_25MHz.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module F_25MHz
+# 
+# Top level modules:
+# 	F_25MHz
+# vlog -vlog01compat -work work +incdir+C:/Users/AferOlkay/Desktop/EE314-Project {C:/Users/AferOlkay/Desktop/EE314-Project/deneme.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module deneme
+# -- Compiling module deneme_tb
+# 
+# Top level modules:
+# 	deneme_tb
+# vlog -vlog01compat -work work +incdir+C:/Users/AferOlkay/Desktop/EE314-Project {C:/Users/AferOlkay/Desktop/EE314-Project/deneme2.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module deneme2
+# -- Compiling module deneme2_tb
+# 
+# Top level modules:
+# 	deneme2_tb
+# vlog -vlog01compat -work work +incdir+C:/Users/AferOlkay/Desktop/EE314-Project {C:/Users/AferOlkay/Desktop/EE314-Project/deneme3.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module deneme3
+# -- Compiling module deneme3_tb
+# 
+# Top level modules:
+# 	deneme3_tb
+# vlog -vlog01compat -work work +incdir+C:/Users/AferOlkay/Desktop/EE314-Project {C:/Users/AferOlkay/Desktop/EE314-Project/deneme4.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module deneme4
+# -- Compiling module deneme4_tb
+# 
+# Top level modules:
+# 	deneme4_tb
+# 
+vlog -reportprogress 300 -work work C:/Users/AferOlkay/Desktop/EE314-Project/deneme.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module deneme
+# -- Compiling module deneme_tb
+# 
+# Top level modules:
+# 	deneme_tb
+vsim work.deneme
+# vsim work.deneme 
+# Loading work.deneme
+vsim work.deneme_tb
+# vsim work.deneme_tb 
+# Loading work.deneme_tb
+# Loading work.deneme
+# ** Warning: (vsim-3017) C:/Users/AferOlkay/Desktop/EE314-Project/deneme.v(47): [TFMPC] - Too few port connections. Expected 6, found 3.
+# 
+#         Region: /deneme_tb/ins1a3
+# ** Warning: (vsim-3722) C:/Users/AferOlkay/Desktop/EE314-Project/deneme.v(47): [TFMPC] - Missing connection for port 'write'.
+# 
+# ** Warning: (vsim-3722) C:/Users/AferOlkay/Desktop/EE314-Project/deneme.v(47): [TFMPC] - Missing connection for port 'ENABLE'.
+# 
+# ** Warning: (vsim-3722) C:/Users/AferOlkay/Desktop/EE314-Project/deneme.v(47): [TFMPC] - Missing connection for port 'out_data'.
+# 
+add wave -position insertpoint  \
+sim:/deneme_tb/out_data
+add wave -position insertpoint  \
+sim:/deneme_tb/CLOCK_50
+add wave -position insertpoint  \
+sim:/deneme_tb/addr
+run
+# ** Warning: (vsim-7) Failed to open readmem file "foto1.mem" in read mode.
+# 
+# No such file or directory. (errno = ENOENT)    : C:/Users/AferOlkay/Desktop/EE314-Project/deneme.v(19)
+#    Time: 0 ps  Iteration: 0  Instance: /deneme_tb/ins1a3
+vlog -reportprogress 300 -work work C:/Users/AferOlkay/Desktop/EE314-Project/deneme.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module deneme
+# -- Compiling module deneme_tb
+# 
+# Top level modules:
+# 	deneme_tb
+vlog -reportprogress 300 -work work C:/Users/AferOlkay/Desktop/EE314-Project/deneme2.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module deneme2
+# -- Compiling module deneme2_tb
+# 
+# Top level modules:
+# 	deneme2_tb
+vlog -reportprogress 300 -work work C:/Users/AferOlkay/Desktop/EE314-Project/deneme3.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module deneme3
+# -- Compiling module deneme3_tb
+# 
+# Top level modules:
+# 	deneme3_tb
+vlog -reportprogress 300 -work work C:/Users/AferOlkay/Desktop/EE314-Project/deneme4.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module deneme4
+# -- Compiling module deneme4_tb
+# 
+# Top level modules:
+# 	deneme4_tb
+vlog -reportprogress 300 -work work C:/Users/AferOlkay/Desktop/EE314-Project/F_25MHz.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module F_25MHz
+# 
+# Top level modules:
+# 	F_25MHz
+vlog -reportprogress 300 -work work C:/Users/AferOlkay/Desktop/EE314-Project/print.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module print
+# 
+# Top level modules:
+# 	print
+vlog -reportprogress 300 -work work C:/Users/AferOlkay/Desktop/EE314-Project/vga_sync.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module vga_sync
+# 
+# Top level modules:
+# 	vga_sync
+run
+restart
+# Loading work.deneme_tb
+# Loading work.deneme
+# ** Warning: (vsim-3015) C:/Users/AferOlkay/Desktop/EE314-Project/deneme.v(47): [PCDPC] - Port size (8 or 8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/AferOlkay/Desktop/EE314-Project/deneme.v(8).
+# 
+#         Region: /deneme_tb/ins1a3
+# ** Warning: (vsim-3015) C:/Users/AferOlkay/Desktop/EE314-Project/deneme.v(47): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'write'. The port definition is at: C:/Users/AferOlkay/Desktop/EE314-Project/deneme.v(9).
+# 
+#         Region: /deneme_tb/ins1a3
+# ** Warning: (vsim-3015) C:/Users/AferOlkay/Desktop/EE314-Project/deneme.v(47): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'ENABLE'. The port definition is at: C:/Users/AferOlkay/Desktop/EE314-Project/deneme.v(10).
+# 
+#         Region: /deneme_tb/ins1a3
+run
+# ** Warning: (vsim-7) Failed to open readmem file "foto1.mem" in read mode.
+# 
+# No such file or directory. (errno = ENOENT)    : C:/Users/AferOlkay/Desktop/EE314-Project/deneme.v(19)
+#    Time: 0 ps  Iteration: 0  Instance: /deneme_tb/ins1a3
+vlog -reportprogress 300 -work work C:/Users/AferOlkay/Desktop/EE314-Project/deneme.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module deneme
+# -- Compiling module deneme_tb
+# 
+# Top level modules:
+# 	deneme_tb
+add wave -position insertpoint  \
+sim:/deneme_tb/CLOCK_50
+add wave -position insertpoint  \
+sim:/deneme_tb/addr
+add wave -position insertpoint  \
+sim:/deneme_tb/out_data
+vlog -reportprogress 300 -work work C:/Users/AferOlkay/Desktop/EE314-Project/deneme.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module deneme
+# -- Compiling module deneme_tb
+# 
+# Top level modules:
+# 	deneme_tb
+vlog -reportprogress 300 -work work C:/Users/AferOlkay/Desktop/EE314-Project/F_25MHz.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module F_25MHz
+# 
+# Top level modules:
+# 	F_25MHz
+vlog -reportprogress 300 -work work C:/Users/AferOlkay/Desktop/EE314-Project/print.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module print
+# 
+# Top level modules:
+# 	print
+vlog -reportprogress 300 -work work C:/Users/AferOlkay/Desktop/EE314-Project/vga_sync.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module vga_sync
+# 
+# Top level modules:
+# 	vga_sync
+run
+vlog -reportprogress 300 -work work C:/Users/AferOlkay/Desktop/EE314-Project/deneme.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module deneme
+# -- Compiling module deneme_tb
+# 
+# Top level modules:
+# 	deneme_tb
+vsim work.deneme_tb
+# vsim work.deneme_tb 
+# Loading work.deneme_tb
+# Loading work.deneme
+add wave -position insertpoint  \
+sim:/deneme_tb/CLOCK_50 \
+sim:/deneme_tb/ENABLE \
+sim:/deneme_tb/addr \
+sim:/deneme_tb/data_in \
+sim:/deneme_tb/out_data \
+sim:/deneme_tb/write
+run
+# ** Warning: (vsim-7) Failed to open readmem file "foto1.tv" in read mode.
+# 
+# No such file or directory. (errno = ENOENT)    : C:/Users/AferOlkay/Desktop/EE314-Project/deneme.v(19)
+#    Time: 0 ps  Iteration: 0  Instance: /deneme_tb/ins1a3
+run
+run
+run
+run
+restart
+run
+run
+run
+run
+vlog -reportprogress 300 -work work C:/Users/AferOlkay/Desktop/EE314-Project/deneme.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module deneme
+# -- Compiling module deneme_tb
+# 
+# Top level modules:
+# 	deneme_tb
+restart
+# Loading work.deneme_tb
+# Loading work.deneme
+run
+# ** Warning: (vsim-7) Failed to open readmem file "main_menu_8b_6_part1.tv" in read mode.
+# 
+# No such file or directory. (errno = ENOENT)    : C:/Users/AferOlkay/Desktop/EE314-Project/deneme.v(19)
+#    Time: 0 ps  Iteration: 0  Instance: /deneme_tb/ins1a3
+run
+vlog -reportprogress 300 -work work C:/Users/AferOlkay/Desktop/EE314-Project/deneme.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module deneme
+# -- Compiling module deneme_tb
+# 
+# Top level modules:
+# 	deneme_tb
+vlog -reportprogress 300 -work work C:/Users/AferOlkay/Desktop/EE314-Project/deneme2.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module deneme2
+# 
+# Top level modules:
+# 	deneme2
+vlog -reportprogress 300 -work work C:/Users/AferOlkay/Desktop/EE314-Project/deneme3.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module deneme3
+# 
+# Top level modules:
+# 	deneme3
+vlog -reportprogress 300 -work work C:/Users/AferOlkay/Desktop/EE314-Project/deneme4.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module deneme4
+# 
+# Top level modules:
+# 	deneme4
+vlog -reportprogress 300 -work work C:/Users/AferOlkay/Desktop/EE314-Project/F_25MHz.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module F_25MHz
+# 
+# Top level modules:
+# 	F_25MHz
+vlog -reportprogress 300 -work work C:/Users/AferOlkay/Desktop/EE314-Project/print.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module print
+# 
+# Top level modules:
+# 	print
+vlog -reportprogress 300 -work work C:/Users/AferOlkay/Desktop/EE314-Project/vga_sync.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module vga_sync
+# 
+# Top level modules:
+# 	vga_sync
+run
+vlog -reportprogress 300 -work work C:/Users/AferOlkay/Desktop/EE314-Project/deneme.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module deneme
+# -- Compiling module deneme_tb
+# 
+# Top level modules:
+# 	deneme_tb
+vlog -reportprogress 300 -work work C:/Users/AferOlkay/Desktop/EE314-Project/deneme2.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module deneme2
+# 
+# Top level modules:
+# 	deneme2
+vlog -reportprogress 300 -work work C:/Users/AferOlkay/Desktop/EE314-Project/deneme3.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module deneme3
+# 
+# Top level modules:
+# 	deneme3
+vlog -reportprogress 300 -work work C:/Users/AferOlkay/Desktop/EE314-Project/deneme4.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module deneme4
+# 
+# Top level modules:
+# 	deneme4
+vlog -reportprogress 300 -work work C:/Users/AferOlkay/Desktop/EE314-Project/F_25MHz.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module F_25MHz
+# 
+# Top level modules:
+# 	F_25MHz
+vlog -reportprogress 300 -work work C:/Users/AferOlkay/Desktop/EE314-Project/print.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module print
+# 
+# Top level modules:
+# 	print
+vlog -reportprogress 300 -work work C:/Users/AferOlkay/Desktop/EE314-Project/vga_sync.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module vga_sync
+# 
+# Top level modules:
+# 	vga_sync
+restart
+# Loading work.deneme_tb
+# Loading work.deneme
+run
+# ** Warning: (vsim-7) Failed to open readmem file "gay1.tv" in read mode.
+# 
+# No such file or directory. (errno = ENOENT)    : C:/Users/AferOlkay/Desktop/EE314-Project/deneme.v(19)
+#    Time: 0 ps  Iteration: 0  Instance: /deneme_tb/ins1a3
+run
+restart
+run
+vlog -reportprogress 300 -work work C:/Users/AferOlkay/Desktop/EE314-Project/print.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module print
+# 
+# Top level modules:
+# 	print
+run

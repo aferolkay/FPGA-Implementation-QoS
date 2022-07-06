@@ -1,0 +1,70 @@
+# do TermProject.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module vga_sync
+# 
+# Top level modules:
+# 	vga_sync
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module vga_sync_vlg_sample_tst
+# -- Compiling module vga_sync_vlg_check_tst
+# -- Compiling module vga_sync_vlg_vec_tst
+# 
+# Top level modules:
+# 	vga_sync_vlg_vec_tst
+# vsim -L cyclonev_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -voptargs=\"+acc\" -t 1ps -novopt work.vga_sync_vlg_vec_tst 
+# Loading work.vga_sync_vlg_vec_tst
+# Loading work.vga_sync
+# Loading altera_ver.dffeas
+# Loading work.vga_sync_vlg_sample_tst
+# Loading work.vga_sync_vlg_check_tst
+# Loading altera_ver.PRIM_GDFF_LOW
+# ERROR! Vector Mismatch for output port hsync :: @time = 1000000.000 ps
+#      Expected value = 0
+#      Real value = 1
+# ERROR! Vector Mismatch for output port video_on :: @time = 1000000.000 ps
+#      Expected value = 0
+#      Real value = 1
+# ERROR! Vector Mismatch for output port vsync :: @time = 1000000.000 ps
+#      Expected value = 0
+#      Real value = 1
+# ERROR! Vector Mismatch for output port x[0] :: @time = 1000000.000 ps
+#      Expected value = 0000000000
+#      Real value = 0000011001
+# ERROR! Vector Mismatch for output port x[3] :: @time = 1000000.000 ps
+#      Expected value = 0000000000
+#      Real value = 0000011001
+# ERROR! Vector Mismatch for output port x[4] :: @time = 1000000.000 ps
+#      Expected value = 0000000000
+#      Real value = 0000011001
+# ERROR! Vector Mismatch for output port CLK :: @time = 1020000.000 ps
+#      Expected value = 0
+#      Real value = 1
+# ERROR! Vector Mismatch for output port x[1] :: @time = 1020000.000 ps
+#      Expected value = 0000000000
+#      Real value = 0000011010
+# ERROR! Vector Mismatch for output port x[2] :: @time = 1100000.000 ps
+#      Expected value = 0000000000
+#      Real value = 0000011100
+# ERROR! Vector Mismatch for output port x[5] :: @time = 1260000.000 ps
+#      Expected value = 0000000000
+#      Real value = 0000100000
+# ERROR! Vector Mismatch for output port x[6] :: @time = 2540000.000 ps
+#      Expected value = 0000000000
+#      Real value = 0001000000
+# ERROR! Vector Mismatch for output port x[7] :: @time = 5100000.000 ps
+#      Expected value = 0000000000
+#      Real value = 0010000000
+# ERROR! Vector Mismatch for output port x[8] :: @time = 10220000.000 ps
+#      Expected value = 0000000000
+#      Real value = 0100000000
+# ERROR! Vector Mismatch for output port x[9] :: @time = 20460000.000 ps
+#      Expected value = 0000000000
+#      Real value = 1000000000
+# ERROR! Vector Mismatch for output port y[0] :: @time = 31940000.000 ps
+#      Expected value = 0000000000
+#      Real value = 0000000001
+#          15 mismatched vectors : Simulation failed !
+# ** Note: $finish    : sync_test.vwf.vt(631)
+#    Time: 40 us  Iteration: 0  Instance: /vga_sync_vlg_vec_tst/tb_out

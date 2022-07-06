@@ -1,0 +1,9 @@
+Warning (10268): Verilog HDL information at deneme.v(22): always construct contains both blocking and non-blocking assignments
+Info (10281): Verilog HDL Declaration information at print.v(5): object "rst" differs only in case from object "RST" in the same scope
+Info (10281): Verilog HDL Declaration information at print.v(26): object "number" differs only in case from object "NUMBER" in the same scope
+Warning (10268): Verilog HDL information at vga_sync.v(38): always construct contains both blocking and non-blocking assignments
+Info (10281): Verilog HDL Declaration information at vga_sync.v(3): object "clk" differs only in case from object "CLK" in the same scope
+Info (10281): Verilog HDL Declaration information at F_25MHz.v(1): object "clk" differs only in case from object "CLK" in the same scope
+Warning (10268): Verilog HDL information at deneme2.v(22): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at deneme3.v(22): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at deneme4.v(22): always construct contains both blocking and non-blocking assignments

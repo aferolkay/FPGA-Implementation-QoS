@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\AferOlkay\Desktop\EE314-Project\simulation\qsim
+vvga_sync
+Z1 IO4B9C0cPkE5Im]kcOL0LU0
+Z2 V:GL[X_h<@<0i[GAAf2IOV2
+Z3 dC:\Users\AferOlkay\Desktop\EE314-Project\simulation\qsim
+Z4 w1656716563
+Z5 8TermProject.vo
+Z6 FTermProject.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|TermProject.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 M`17g_cU_@?gjSjWeLh<G2
+!s85 0
+Z11 !s108 1656716564.475000
+Z12 !s107 TermProject.vo|
+!s101 -O0
+vvga_sync_vlg_check_tst
+!i10b 1
+Z13 !s100 N7<_Ykh0zZab4]dB^ln5S1
+Z14 II[=eiR@<6>kH<bZcYkPG62
+Z15 V>l84<5Xd^2YU`Tf?GMEzz2
+R3
+Z16 w1656716562
+Z17 8sync_test.vwf.vt
+Z18 Fsync_test.vwf.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z19 !s108 1656716564.522000
+Z20 !s107 sync_test.vwf.vt|
+Z21 !s90 -work|work|sync_test.vwf.vt|
+!s101 -O0
+R9
+vvga_sync_vlg_sample_tst
+!i10b 1
+Z22 !s100 Qf>?WbfNMfSLR0KcVRibi2
+Z23 IR9[SXC=aeQ0PKMGf@WQ<e0
+Z24 V@fO3BHTWcm4n]GYTSX=nS2
+R3
+R16
+R17
+R18
+L0 29
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9
+vvga_sync_vlg_vec_tst
+!i10b 1
+Z25 !s100 C0L8iTj8G8lY;GoSLnH=90
+Z26 IzQOh?VG=KTl;HRLIo7o;O2
+Z27 V@g5bAf7;4^:2GD;G<ObTV1
+R3
+R16
+R17
+R18
+Z28 L0 635
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9
